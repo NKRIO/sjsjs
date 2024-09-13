@@ -1,5 +1,5 @@
 import express from 'express';
-import http from 'node:http';
+import http from 'node:https';
 import path from 'node:path';
 import { libcurlPath } from "@mercuryworkshop/libcurl-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
